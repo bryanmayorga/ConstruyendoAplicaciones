@@ -9,24 +9,24 @@ var webmapId = "a3f059a6bcf14682b10a9cae8033b049";
 
 // @formatter:off
 require([
-        "esri/map",
-        "esri/arcgis/utils",
-        "esri/geometry/Extent",
-        "esri/layers/ArcGISDynamicMapServiceLayer",
-        "esri/layers/FeatureLayer",
-        "esri/dijit/BasemapGallery",
-        "esri/dijit/Legend",
+    "esri/map",
+    "esri/arcgis/utils",
+    "esri/geometry/Extent",
+    "esri/layers/ArcGISDynamicMapServiceLayer",
+    "esri/layers/FeatureLayer",
+    "esri/dijit/BasemapGallery",
+    "esri/dijit/Legend",
 
-        "dojo/ready",
-        "dojo/parser",
-        "dojo/on",
+    "dojo/ready",
+    "dojo/parser",
+    "dojo/on",
 
-        "dijit/layout/BorderContainer",
-        "dijit/layout/ContentPane"],
+    "dijit/layout/BorderContainer",
+    "dijit/layout/ContentPane"],
     function (Map, arcgisUtils, Extent, ArcGISDynamicMapServiceLayer, FeatureLayer, BasemapGallery, Legend,
-              ready, parser, on,
-              BorderContainer, ContentPane) {
-// @formatter:on
+        ready, parser, on,
+        BorderContainer, ContentPane) {
+        // @formatter:on
 
         // Wait until DOM is ready *and* all outstanding require() calls have been resolved
         ready(function () {
